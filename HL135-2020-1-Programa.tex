@@ -1,0 +1,231 @@
+
+\documentclass[a4paper,12pt]{article} 
+
+%==========================================================
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{fullpage} %para diminuir as margens
+%\usepackage{dialogue} % não tá funcionando
+%\usepackage{zefonts} %separa as palavras corretamente
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % Codificação de caracteres
+\usepackage[brazil]{babel} % Português brasileiro como idioma padrão
+%\usepackage[brazilian]{babel}
+%\usepackage{natbib}   
+\usepackage{endnotes} \renewcommand{\notesname}{Notas}
+\usepackage{epigraph}
+\usepackage{float}
+\usepackage{trivfloat}\trivfloat{quadro} \renewcommand{\listquadroname}{Lista de Quadros}
+\usepackage{fancyhdr} \pagestyle{fancy}\rhead{LL900 -- Seminário de Linguística -- 2017/1}
+\usepackage{verse}
+\usepackage{color}
+\usepackage[table]{xcolor}
+\usepackage[pdftex]{graphicx}
+\usepackage{microtype}
+\usepackage{caption} \captionsetup{justification=centering,labelfont=bf}
+\usepackage{boxedminipage}
+\usepackage[pdftex, colorlinks=true, urlcolor=blue, citecolor=orange, linkcolor=blue% urlcolor=black,	pagebackref=true
+	]{hyperref}
+	%\hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black %,urlcolor=black}
+	%	\urstyle{same} %tá dando erro cf. wikibooks sobre hyperref
+\usepackage{paralist} %enumerate and itemize within paragraphs
+\usepackage[tone,extra]{tipa}
+\usepackage{ulem} %outros efeitos de texto (sublinhado duplo, ondulado, riscado, rasurado)
+\usepackage{verbatim} %
+\usepackage{linguex}  %\renewcommand{\refdash}{}
+\usepackage{float}
+\usepackage{multicol} %\setlength\columnseprule{0.4pt} %este último coloca barra entre colunas
+\usepackage{multirow}
+\usepackage{fixltx2e} % deixa biblio chicago em itálico, não underlined
+\usepackage{qtree} 	\qtreecenterfalse
+\usepackage{stmaryrd} 
+\usepackage{subfigure}
+%\usepackage[absolute]{textpos} %com ``absolute" não funcionou 
+\usepackage{textpos}
+\usepackage{ulem}
+\usepackage{subfigure}
+\usepackage{longtable}
+\usepackage{xtab}
+\usepackage{colortbl}
+\usepackage{ctable}
+%\usepackage{tikz} %não tá funcionando - é pra figuras
+\usepackage{fullpage} % não tá funcionando -- 1 inch on all sides
+\usepackage{setspace} \onehalfspacing %\doublespacing
+\usepackage{hanging}
+
+%=====================================================
+\newcommand{\n}{\noindent}
+\newcommand{\den}[1]{$\llbracket$#1$\rrbracket$}
+\raggedbottom
+
+%\setcitestyle{notesep={\,:\,}}
+%======================================================
+
+
+\begin{document}
+{
+
+
+\begin{center}
+	{\Large \textbf{HL135 -- Escrita e Oralidade}}\\
+	Livia Oushiro (oushiro@iel.unicamp.br)\\
+	PAD HL135A: Gabriel Catani (g197219@dac.unicamp.br) \\
+	PAD HL135C: Ana Paula Ferreira de Moraes (a194003@dac.unicamp.br)\\
+	1\textsuperscript{o} semestre de 2020
+\end{center}
+
+\n \textbf{Objetivo} \bigskip
+
+\n Refletir sobre as relações entre fala e escrita, por meio de leituras e de discussões sobre a natureza da fala, a estrutura da conversa, os diferentes sistemas de escrita, bem como as funções sociais de ambas.  
+
+\bigskip
+
+\n  \textbf{Programa} \bigskip
+\begin{compactenum}
+	\item Princípios gerais para o tratamento das relações entre fala e escrita 
+	\item Fundamentos da Análise da Conversa Etnometodológica
+		\begin{compactenum}
+			\item O sistema de troca de turnos
+			\item Pares adjacentes
+			\item Recursos de construção do texto oral
+		\end{compactenum}
+	\item Sistemas de transcrição: representação da língua oral 
+	\item Escrita em perspectiva histórica e historiográfica
+		\begin{compactenum}
+			\item Sistemas de escrita
+			\item O campo de estudos sobre a escrita
+		\end{compactenum}
+	\item Relações entre fala e escrita, oralidade e letramento
+		\begin{compactenum}
+			\item Perspectivas das dicotomias e do contínuo
+			\item Fala e escrita por meio de ``novas'' tecnologias de comunicação
+			\item Fala e escrita como práticas sociais
+		\end{compactenum}
+\end{compactenum}
+
+\bigskip
+\n \textbf{Critérios de Avaliação} \bigskip
+
+\n Participação em sala de aula (até 1,0 ponto na média). Capacidade de operar com os conceitos estudados, demonstrada por meio da criação de um sistema de transcrição e de um trabalho final. Realização de tarefas dentro dos prazos.\medskip
+
+\n Média: \[\frac{(Transc + Trabalho)}{2} + Part\]
+
+\pagebreak
+\n \textbf{Cronograma}
+
+\begin{center}
+\begin{tabular}{rp{9cm}p{5cm}}
+	\hline
+	\multicolumn{1}{c}{\textbf{Data}} & \multicolumn{1}{c}{\textbf{Conteúdo}} & \multicolumn{1}{c}{\textbf{Leituras}} \\ \hline
+03/03 & Apresentação. Princípios gerais para o tratamento das relações entre fala e escrita. & Marcuschi \& Dionísio 2007 \\ 
+\rowcolor[gray]{0.9}10/03 & Fundamentos da Análise da Conversa \mbox{Etnometodológica} & Dionisio 2001 \\ 
+17/03 & Sistema de trocas de turnos & SSJ 1974 \\ 
+\rowcolor[gray]{0.9}24/03 & Pares adjacentes & Marcuschi 1986, cap.5 \\ 
+31/03 & Recursos de construção do texto oral: hesitação,  & Marcuschi 2006; \\ 
+ & repetição, correção, paráfrase, marcadores  & Marcuschi 2002 [1996];  \\ 
+ & conversacionais  & Hilgert 2010 [1993]; Barros 2010 [1993]; Risso \textit{et al} 1996\\
+\rowcolor[gray]{0.9}07/04 & Representação do texto oral & Gonçalves \& Tenani 2008 \\
+14/04 & Transcrições no ELAN (sala de computadores) & Oushiro 2014\\
+      & Instruções sobre o trabalho & \\
+\rowcolor[gray]{0.9}21/04 & Feriado (Tiradentes). Não haverá aula. & \\
+28/04 & IV Encontro de Sociolinguistas. Não haverá aula. & \\
+\rowcolor[gray]{0.9}05/05 & Fonologia e escrita & Abaurre \& Silva 1993\\
+12/05 & Sistemas de escrita & Sampson 1996 \\ 
+\rowcolor[gray]{0.9}19/05 & O campo do estudo da escrita & Gnerre 2009 [1985] \\ 
+26/05 & Relação fala/escrita: dicotomias? Contínuo? ...? & Koch 2008 [1997]; \\ 
+& & Marcuschi 2008 [2001] \\ 
+\rowcolor[gray]{0.9}02/06 & Relação fala/escrita: comparações entre textos orais e textos escritos & Brait 1998; Urbano 1998 \\ 
+09/06 & Gêneros orais e escritos na escola & Bentes 2010\\
+\rowcolor[gray]{0.9}16/06 & Fala e escrita por meio de ``novas'' tecnologias de comunicação & Collister 2016 \\
+23/06 & Encerramento. Entrega do trabalho final. &  \\ \hline
+\end{tabular}
+
+\end{center}
+
+\bigskip
+
+\n \textbf{Bibliografia} \bigskip \singlespacing\\
+\n Os textos estão disponíveis em \url{https://tinyurl.com/HL135biblio}.\\
+
+ \begin{hangparas}{.25in}{1}
+\n Abaurre, M. B. M.; Silva, A. (1993) O desenvolvimento de critérios de segmentação na escrita. Temas em Psicologia. São Paulo, v. 1, p. 89--102.
+
+\n Barros, D. L. P. (2010 [1993]) Procedimentos de reformulação: a correção. In: Preti, D. (org.) Análise de textos orais, vol. 1. 7ª edição. São Paulo: Humanitas, p. 147--178. 
+
+\n Bentes, A.C. (2010) Linguagem oral no espaço escolar: rediscutindo o lugar das práticas e dos gêneros orais na escola. In: Rangel, E.; Rojo, R. (orgs.) Explorando o ensino: Língua Portuguesa. Brasília: MEC, pp. 15--35. 
+
+\n Brait, B. (1998) Elocução formal: o dinamismo da oralidade e as formalidades da escrita. In: Preti, D. (org.) Estudos da língua falada: variação e confrontos (Série Projetos Paralelos v.3). São Paulo, Humanitas, p. 87--108.
+
+\n Collister, L. (2016) Why using a period in a text makes you sound angry. Disponível em \url{https://theconversation.com/why-does-using-a-period-in-a-text-message-make-you-sound-insincere-or-angry-61792}. Último acesso em 13/02/2020.
+
+\n Dionísio, A. P. (2001). Análise da Conversação. In: Mussalim, F; Bentes, A.C. (orgs.). Introdução à linguística: domínios e fronteiras, v.2. São Paulo: Cortez, p. 69--99. 
+
+Gnerre, Maurizio. (2009 [1985]). Linguagem, escrita e poder. 4. ed. São Paulo: Martins Fontes.
+
+Gonçalves, S. C. L.; Tenani, L.E. (2008). Problemas teórico-metodológicos na elaboração de um sistema de transcrição de dados interacionais: o caso do Projeto ALIP (Amostra Linguística do Interior Paulista). Gragoatá 25, Niterói, 165--183.
+
+Hilgert, J. G. (2010 [1993]). Procedimentos de reformulação: a paráfrase. In: Preti, D. (org.) Análise de textos orais, vol.1. 7ª edição. São Paulo: Humanitas, p. 117--146.  
+
+Koch, I. V. A natureza da fala. (2008 [1997]). In: O texto e a construção dos sentidos. São Paulo: Contexto, p. 77--82.
+
+Marcuschi, L. A. (2002 [1996]). A repetição na língua falada como estratégia de formulação textual. In: Koch, I.V.G. (org.) Gramática do português falado (Vol. 6: desenvolvimentos). 2ª ed. Campinas: UNICAMP/FAPESP, p. 105--141.
+
+Marcuschi, L.A. (2003 [1986]). Análise da conversação. São Paulo: Ática.
+
+Marcuschi, L.A. (2006). Fenômenos intrínsecos da oralidade: hesitação. In: Jubran, C.; Koch, I.V.G. (Orgs.). Gramática do português culto falado no Brasil. Campinas: UNICAMP, p. 48--70.
+
+Marcuschi, L. A. (2008 [2001]). Oralidade e letramento. In: Da fala para a escrita: atividades de retextualização. 9ª ed. São Paulo: Cortez. 
+
+Marcuschi, L. A.; Dionísio, A. P. (2007). Princípios gerais para o tratamento das relações entre a fala e a escrita. In: Fala e escrita. Belo Horizonte: Autêntica. 
+
+Oushiro, L. (2014) Transcrição de entrevistas sociolinguísticas com o ELAN. 
+In: Freitag, Raquel Meister Ko (Ed.), Metologia de coleta e manipulação de dados em Sociolinguística. São Paulo: Blucher, 2014. Disponível em url{http://blucheropenaccess.com.br/articles/download/290}.
+
+Preti, D. (2009). Entre o oral e o escrito: a transcrição de gravações. In: Oralidade em textos escritos. (Projetos Paralelos -- NURC/SP, v. 10). São Paulo: Associação Editorial Humanitas, p. 305-316.
+
+Risso, M. S.; Silva, G. M.; Urbano, H. (1996). Marcadores discursivos: traços definidores. In: Koch, I.V.G. (org.) Gramática do português falado (vol. 6: desenvolvimentos). Campinas: UNICAMP / FAPESP, p. 21?103.
+
+
+Sacks, H.; Schegloff, E.; Jefferson, G. (2003 [1974]). Sistemática elementar para a organização da tomada de turnos para a conversa. Veredas 7(1), 9--73. Disponível em \url{http://www.ufjf.br/revistaveredas/files/2009/12/artigo14.pdf}. [Tradução de ``A simplest systematics for the organization of turn taking for conversation''. Language, v. 50, n. 4, p. 696--735, 1974.]
+
+Sampson, G. (1996). Sistemas de escrita: tipologia, história e psicologia. São Paulo: Ática. 
+
+\end{hangparas}
+
+%\pagebreak
+\bigskip 
+\n \textbf{Bibliografia Complementar} \bigskip 
+
+ \begin{hangparas}{.25in}{1}
+\n Bentes, A. C. (2014 [2011]). Oralidade, política e direitos humanos: Por uma aula de Língua Portuguesa comprometida com o diálogo e com a construção da cidadania. In: Elias, V. M. S. (Org.) Oralidade, leitura e escrita no ensino de Língua Portuguesa. São Paulo: Contexto, p. 20--35.
+
+\n Clark, H. (1996) Using language. Cambridge: Cambridge University Press.
+
+Coulmas, F. (2000 [1989]). The writing systems of the world. Oxford/UK: Blackwell.
+
+Daniels, P. T.; Bright, W. (eds). (1996). The world's writing systems. New York: Oxford University Press.
+
+Estrela, E. (s/d). A questão ortográfica. Reforma e acordos da Língua Portuguesa. Lisboa: Editorial Notícias.
+
+Gago, P. C. (2002) Questões de transcrição em análise da conversa. Veredas 6(2), 89--113.
+
+Garcez, P. M.; Loder, L. L. (2005). Reparo iniciado e levado a cabo pelo outro na conversa cotidiana em Português do Brasil. D.E.L.T.A. 21(2), 279--312.
+
+Garfinkel, H. (1967) Studies in ethnomethodology. New Jersey: Prentice Hall. 
+
+Jubran, C. C. A. S. et al. (2002). Organização tópica da conversação. In: Ilari, R. (org.). Gramática do português falado: níveis de análise linguística (vol. 2). 4. ed. Campinas: UNICAMP, p. 341?428.
+
+Marcuschi, L. A. (1998). Atividades de compreensão na interação verbal. In: Preti, D. (org.) Estudos da língua falada: variação e confrontos (Série Projetos Paralelos v.3). São Paulo: Humanitas, p. 15--45.
+
+McCleary, L. E.; Viotti, E. C.; Leite, T. A. (2010) Descrição de línguas sinalizadas: a questão da transcrição dos dados. Alfa: Revista de Linguística 54 (UNESP. São José do Rio Preto), p. 265--289.
+
+Mello, H.; Raso, T. (2009) Para a transcrição da fala espontânea: o caso do C-ORAL-BRASIL. Revista Portuguesa de Humanidades/Estudos Linguísticos 13(1), 301--325.
+
+Sacks, H. (1992) Lectures on conversation, vol. 1. Malden, MA: Blackwell.
+ 
+Silva, M. (org.) (2009). Ortografia da língua portuguesa: história, discurso, representações. São Paulo: Contexto.
+
+Tenani, L. (2017) Fonologia e escrita: possíveis relações e desafios teórico-metodológicos. Cadernos de Estudos Linguísticos 59(3), 581--597.
+\end{hangparas}
+}
+\end{document}
